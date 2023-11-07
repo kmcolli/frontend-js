@@ -24,7 +24,7 @@ const hostname = os.hostname();
 const config = process.env.CONFIG;
 var properties;
 //const version = PropertiesReader('config/version.ini').get('main.version');
-const version = process.env.VERSION || 'v1'
+const version = process.env.VERSION || 'v2'
 const BACKEND_URL = process.env.BACKEND_URL || `http://localhost:${PORT}/version`
 logger.info('BACKEND URL: ' + BACKEND_URL);
 //App
